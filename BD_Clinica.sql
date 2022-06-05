@@ -33,6 +33,9 @@ create table consulta (
         references paciente (codp)
 );
 
+create table hospital(
+	endereco varchar(50)
+    );
 
 insert into medico( nomem, especialidade, sexo, dt_nasc) values
 
